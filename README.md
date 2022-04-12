@@ -3,10 +3,17 @@
 Credits to: [Reactjs And Smart Contracts Open Source Basic Nft Marketplace App](https://github.com/yessGlory17/nft-marketplace)
 
 
-## 💪 Motivation
+## 🎯 Goal
 
 <p>
-Our aim is to allow people to take back the ownership of their mobile identity. Oligopolisitic telecommunication companies hold significant power on your mobile identity, the mobile has been an increasing integral parts of our life even becoming part of our identity. They act as an extension of our own identity, acting as our digital identity it offers a means of extending access to a wide range of services, such as mobile banking and mobile health, and even opportunities such as networking and jobs. Opportunities that would be especially important to those who have been particularly marginalized, such as women and those living in poverty. Quintessentially, the mobile identity boils down to the role of communication and interaction between new acquaintances and fostering bonds. But what can an individual do if telecommuncation companies decided to pull the plug for your identity? As such, our groups mission is to drive the separation of power of the mobile identity to the masses
+Our aim is to allow people to take back ownership of their mobile identities. 
+
+## 📚 Context
+Oligopolistic telecommunication companies hold significant power on your mobile identity, the mobile has been an increasingly integral part of our life even becoming part of our identity. They act as an extension of our own identity, acting as our digital identity it offers a means of extending access to a wide range of services, such as mobile banking and mobile health, and even opportunities such as networking and jobs. Opportunities that would be especially important to those who have been particularly marginalized, such as women and those living in poverty. Quintessentially, the mobile identity boils down to the role of communication and interaction between new acquaintances and fostering bonds. But what can an individual do if telecommunication companies decided to pull the plug on your mobile identity? In an instant, your mobile identity ceases to exist and those who know you are unable to reach you. 
+
+## 💪 Objective
+
+As such, our group's mission is to drive the separation of power of the mobile identity to the masses. This is done through the use of a free, open, personalizable TeleBlock Number NFT that belongs to each user. Everything is customizable extending past the number rhetoric, it allows for letters, symbols, and even emojis. There is also another texture element to the TeleBlock number NFT where the NFT can include a pictorial and even 3d graphical renders that allow for the user to escape the dimensions that restrict their idea of how they want their identity to be seen.
 
 ## 🖥️ Screenshoots 
 
