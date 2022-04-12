@@ -1,4 +1,4 @@
-# Open Place TelephoneBlocks
+# Open Place TeleBlocks
 
 Credits to: [Reactjs And Smart Contracts Open Source Basic Nft Marketplace App](https://github.com/yessGlory17/nft-marketplace)
 
