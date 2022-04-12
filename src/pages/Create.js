@@ -12,6 +12,7 @@ import {AiOutlineSearch} from 'react-icons/ai';
 import Header from "../components/Header";
 import WalletBalance from './WalletBalance'
 import { useEthers, useEtherBalance } from "@usedapp/core";
+import "../styles/Create.css";
 
 const Create = () => {
   const {activateBrowserWallet, account} = useEthers();
@@ -23,7 +24,11 @@ const Create = () => {
 
   return (
     <>
-      <Header />
+       <Header />
+       <h1 id="header-text-first"> Create your own TeleBlocks number</h1>
+      <h1 id="header-text-second">  </h1>
+
+      <h3 id="header-subtext">Take charge of your own mobile identity</h3>
 
       
       <p>

@@ -21,7 +21,7 @@ const Hero = () => {
 
       <Header />
       <h1 id="header-text-first"> Project </h1>
-      <h1 id="header-text-second"> TelephoneBlocks</h1>
+      <h1 id="header-text-second"> TeleBlocks numbers</h1>
       <h3 id="header-subtext">Re-discovering the mobile identity</h3>
 
       <div id="hero-buttons">
