@@ -44,21 +44,21 @@ const NFTCard = ({ username, nftName, price, nftSrc, likeCount, gradient, onClic
         </ColorExtractor></>}
         <div className="wrapper">
           <div className="info-container">
-            <p className="owner"> LEJOURN.DARK.NFT</p>
+            <p className="owner"> Jane2019GM</p>
             <p className="name">Alien Cry</p>
           </div>
 
           <div className="price-container">
-            <p className="price-label">Price</p>
+            <p className="price-label">Number</p>
             <p className="price">
               {" "}
-              <FaEthereum /> 4.555
+              <FaEthereum /> Jane.eth
             </p>
           </div>
         </div>
         <div className="buttons">
           {/* <button className="buy-now">Buy Now</button> */}
-          <Button color={Colors.buttons.primary} textContent="Buy Now" onClick={onClick} />
+          <Button color={Colors.buttons.primary} textContent="Connect" onClick={onClick} />
           <div className="like-container">
             <button className="like" onClick={like}>
               {!isLike ? (
@@ -73,7 +73,7 @@ const NFTCard = ({ username, nftName, price, nftSrc, likeCount, gradient, onClic
                 }} color='#00f5c966' />
               )}
             </button>
-            <p className="like-count">123</p>
+            <p className="like-count"></p>
           </div>
         </div>
       </>}>

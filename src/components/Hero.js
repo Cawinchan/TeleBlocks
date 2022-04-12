@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import logo from './coin_payphone.png'
+
 import "../styles/Hero.css";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
@@ -18,10 +20,9 @@ const Hero = () => {
       {/* <img id='hero-background' src={list[0].src}/> */}
 
       <Header />
-
-      <h1 id="header-text-first"> NFT </h1>
-      <h1 id="header-text-second"> Darkroom Marketplace</h1>
-      <h5 id="header-subtext">Craft, hunt and trade NFT's in the dark</h5>
+      <h1 id="header-text-first"> Project </h1>
+      <h1 id="header-text-second"> TelephoneBlocks</h1>
+      <h3 id="header-subtext">Re-discovering the mobile identity</h3>
 
       <div id="hero-buttons">
         <button id="explore" onClick={goExplore}>
@@ -29,6 +30,8 @@ const Hero = () => {
         </button>
         <button id="create" onClick={goCreate}>Create</button>
       </div>
+      <img src={logo} className="App-logo" alt="logo" />
+
     </div>
   );
 };

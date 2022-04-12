@@ -2,6 +2,12 @@
   
 }
 
+.App-logo {
+  opacity: 0.3;
+  /* height: 40vmin;
+  pointer-events: none; */
+} 
+
 #hero {
   width:100%;
   height: 500px;
