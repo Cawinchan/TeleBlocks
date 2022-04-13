@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ethers } from 'ethers';
+import { FaEthereum } from "react-icons/fa";
 import "../styles/walletbalance.css";
 
 function WalletBalance() {
@@ -15,7 +16,7 @@ function WalletBalance() {
   
     return (
       <div>
-          <h5 id="header-text-head">Your Balance: {balance} ETH</h5>
+          <h5 id="header-text-head">Your Balance: {balance} <FaEthereum/></h5>
           <button id='button_balance' onClick={() => getBalance()}>Show My Balance</button>
       </div>
     );

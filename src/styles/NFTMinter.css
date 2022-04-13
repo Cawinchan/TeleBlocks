@@ -1,0 +1,20 @@
+#nft {
+    height: 200px;
+     width: 200px;
+}
+
+
+#button_mint {
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: 'center'; */
+    margin: 0 auto;
+    font-size: large;
+}
+
+#name {
+    display: flex;
+    margin: 0 auto;
+    font-size: large;
+    color:#000000;
+}

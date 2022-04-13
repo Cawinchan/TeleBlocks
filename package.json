@@ -8,7 +8,10 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "@usedapp/core": "^0.7.3",
+    "express": "^4.14.0",
     "gun": "^0.2020.1236",
+    "hardhat": "^2.9.3",
+    "hardhat-gas-reporter": "^1.0.8",
     "react": "^17.0.2",
     "react-color-extractor": "^1.1.2",
     "react-dom": "^17.0.2",
@@ -16,9 +19,9 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-slick": "^0.28.1",
-    "web-vitals": "^2.1.2",
-    "express": "^4.14.0"
-    },
+    "solidity-coverage": "^0.7.20",
+    "web-vitals": "^2.1.2"
+  },
   "scripts": {
     "startjs": "node server.js",
     "start": "react-scripts start",
@@ -43,5 +46,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.3"
   }
 }
