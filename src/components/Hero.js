@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
 import logo from './coin_payphone.png'
+import Install from './Install';
 
 import "../styles/Hero.css";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 
+
+
 const Hero = () => {
+  
   let navigate = useNavigate();
 
   const goExplore = () => {
@@ -14,6 +18,10 @@ const Hero = () => {
   const goCreate = () => {
     navigate("/create");
   };
+
+  if (!window.ethereum) {
+    return <Install />;
+    }
 
   return (
     <div id="hero">

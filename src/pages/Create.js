@@ -25,8 +25,8 @@ const Create = () => {
   return (
     <>
        <Header />
-       <h1 id="header-text-first"> Create your own TeleBlocks number</h1>
-      <h1 id="header-text-second">  </h1>
+       <h1 id="header-text-first"> Create your own </h1>
+      <h1 id="header-text-second"> TeleBlocks number </h1>
 
       <h3 id="header-subtext">Take charge of your own mobile identity</h3>
 
