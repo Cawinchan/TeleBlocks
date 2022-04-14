@@ -9,6 +9,9 @@
 }
 
 #button_balance {
-    margin-top: 20px;
-    margin-left: 520px;
+  display: flex;
+  /* justify-content: center; */
+  /* text-align: 'center'; */
+  margin: 0 auto;
+  font-size: large;
 }
