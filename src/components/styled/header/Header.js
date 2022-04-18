@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import GlobeIllustration from "../../../assets/svgs/GlobeIllustration";
+// import GlobeIllustration from "../../../assets/svgs/GlobeIllustration";
 import { StyledHeader } from "./Header.styled";
 import { StyledButton } from "../Button/Button.styled";
-
+import GlobeVis from "./GlobeVis";
 function Header() {
   let navigate = useNavigate();
 
@@ -35,7 +35,8 @@ function Header() {
             with the power of blockchain.
           </p>
         </article>
-        <GlobeIllustration />
+        {/* <GlobeIllustration /> */}
+        <GlobeVis />
       </section>
     </StyledHeader>
   );
