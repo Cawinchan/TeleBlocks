@@ -6,12 +6,17 @@ import IllustrationFlowingConversations from "../../../assets/svgs/IllustrationF
 import IllustrationsYourUsers from "../../../assets/svgs/IllustrationsYourUsers";
 import { StyledButton } from "../Button/Button.styled";
 import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
 function Article() {
   let navigate = useNavigate();
 
   const goHome = () => {
     navigate("/home");
+  };
+
+  const goExplore = () => {
+    navigate("/explore");
   };
 
   return (
@@ -21,8 +26,8 @@ function Article() {
           <IllustrationGrowTogether />
           <div>
             <h2>
-              WHAT IF you can protect your personal information from malicious
-              hackers?
+              <b>WHAT IF</b> you can protect your personal information from
+              malicious hackers?
             </h2>
             <p>
               Everyone (hopefully) already knows that all your online activity
@@ -40,9 +45,11 @@ function Article() {
               number to target ads.
             </p>
             <AwesomeButton
+              id="AwesomeButton"
               type="secondary"
-              size="medium"
-              // action={}
+              size="large"
+              action={goExplore}
+              ripple
             >
               Read More
             </AwesomeButton>
@@ -60,6 +67,15 @@ function Article() {
               switch your telecom service provider at any time and there was no
               friction, no downtime and your mobile identity was preserved?
             </p>
+            <AwesomeButton
+              id="AwesomeButton"
+              type="secondary"
+              size="large"
+              action={goExplore}
+              ripple
+            >
+              Read More
+            </AwesomeButton>
           </div>
         </article>
         <article>
@@ -72,6 +88,15 @@ function Article() {
               cupidatat non proident, sunt in culpa qui officia deserunt mollit
               anim id est laborum.
             </p>
+            <AwesomeButton
+              id="AwesomeButton"
+              type="secondary"
+              size="large"
+              action={goExplore}
+              ripple
+            >
+              Read More
+            </AwesomeButton>
           </div>
         </article>
         <article>
@@ -84,6 +109,15 @@ function Article() {
               cupidatat non proident, sunt in culpa qui officia deserunt mollit
               anim id est laborum.
             </p>
+            <AwesomeButton
+              id="AwesomeButton"
+              type="secondary"
+              size="large"
+              action={goExplore}
+              ripple
+            >
+              Read More
+            </AwesomeButton>
           </div>
         </article>
 

@@ -21,7 +21,8 @@ export const StyledArticleSection = styled.section`
   }
   & article p {
     color: ${({ theme }) => theme.color.grayishBlue};
-    /* padding: 0 5%; */
+    padding-bottom: 20px;
+    padding-left: 5%;
     font-size: clamp(0.75rem 30vw 1.2rem);
   }
   & article h2 {
@@ -30,6 +31,11 @@ export const StyledArticleSection = styled.section`
     line-height: 1.3;
     margin-bottom: 1rem;
     // font-size: clamp(0.75rem 30vw 1.2rem);
+  }
+  & article b {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-right: 0.5rem;
   }
 
   & .cta {
