@@ -24,6 +24,13 @@ export const StyledArticleSection = styled.section`
     /* padding: 0 5%; */
     font-size: clamp(0.75rem 30vw 1.2rem);
   }
+  & article h2 {
+    // color: ${({ theme }) => theme.color.grayishBlue};
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    // font-size: clamp(0.75rem 30vw 1.2rem);
+  }
 
   & .cta {
     padding: 2rem 4% 3rem;

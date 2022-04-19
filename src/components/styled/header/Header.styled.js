@@ -12,8 +12,15 @@ export const StyledHeader = styled.header`
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     justify-content: center;
     align-items: center;
-    gap: 5rem;
-    margin-top: 4rem;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  #globeViz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-left: 2rem;
   }
 
   & nav {
@@ -27,8 +34,11 @@ export const StyledHeader = styled.header`
     box-shadow: 0 1px 6px -3px ${({ theme }) => theme.color.grayishBlue};
   }
 
-  & nav svg {
-    width: 8rem;
+  & nav h1 {
+    // width: 8rem;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
   }
 
   & article {
@@ -46,7 +56,7 @@ export const StyledHeader = styled.header`
     /* padding: 0 1em; */
   }
   article p {
-    line-height: 1.4;
+    line-height: 1.5;
   }
   article button {
     width: max-content;
@@ -65,9 +75,10 @@ export const StyledHeader = styled.header`
       gap: 8%;
 
       h1 {
-        font-size: 2.3rem;
-        line-height: 1.1;
+        font-size: 2.8rem;
+        line-height: 1.2;
       }
+
       button {
         margin: 0 auto 0 0;
       }
