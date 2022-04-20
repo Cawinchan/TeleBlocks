@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 
 import { GlobalStyle } from "../components/Global.styled";
-import Header from "../components/styled/Header/Header";
+import Header from "../components/styled/header/Header";
 import Article from "../components/styled/Articles/Article";
 import Preface from "../components/styled/Preface/Preface";
 import Footer from "../components/styled/Footer/Footer";
