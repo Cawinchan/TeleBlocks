@@ -7,6 +7,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "../components/Global.styled";
 import Header from "../components/styled/Header/Header";
 import Article from "../components/styled/Articles/Article";
+import Preface from "../components/styled/Preface/Preface";
 import Footer from "../components/styled/Footer/Footer";
 import theme from "../theme";
 
@@ -30,6 +31,7 @@ const MainStory = (props) => {
         <GlobalStyle />
         <div className="appContainer">
           <Header />
+          <Preface />
           <Article />
           <Footer />
         </div>

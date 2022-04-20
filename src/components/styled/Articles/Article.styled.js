@@ -5,7 +5,15 @@ export const StyledArticleSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.color.themeColorD};
+
+  h1 {
+    // font-size: clamp(1.5rem 30vw 2rem);
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: ${({ theme }) => theme.color.white};
+  }
 
   & article {
     padding: 2.5em 5%;
@@ -15,7 +23,7 @@ export const StyledArticleSection = styled.section`
     gap: 5rem;
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-
+    background-color: ${({ theme }) => theme.color.white};
     box-shadow: 0 0 3px ${({ theme }) => theme.color.grayishBlue};
     border-radius: 0.4rem;
   }

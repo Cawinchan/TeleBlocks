@@ -20,7 +20,6 @@ export const StyledHeader = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    // margin-left: 2rem;
   }
 
   & nav {

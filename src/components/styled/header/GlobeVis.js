@@ -28,8 +28,10 @@ const GlobeVis = (props) => {
     <div id="globeViz">
       <Globe
         ref={globeEl}
-        width={window.innerWidth * 0.35}
-        height={window.innerHeight * 0.5}
+        // width={window.innerWidth * 0.35}
+        width={400}
+        // height={window.innerHeight * 0.5}
+        height={470}
         backgroundColor="rgba(0,0,0,0)"
         // rendererConfig={{ antialias: true, alpha: true }}
         animateIn={true}

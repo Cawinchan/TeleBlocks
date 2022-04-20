@@ -16,6 +16,12 @@ let theme = {
     grayishBlue: "hsl(208, 11%, 55%)",
     pink: "hsl(322, 100%, 66%)",
     white: "hsl(0, 0%, 100%)",
+    prefaceBg: "hsl(0, 0%, 100%)",
+    themeColorA: "#22223b",
+    themeColorB: "#4a4e69",
+    themeColorC: "#9a8c98",
+    themeColorD: "#c9ada7",
+    themeColorE: "#f2e9e4",
   },
 };
 
