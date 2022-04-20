@@ -23,12 +23,12 @@ export const StyledArticleSection = styled.section`
     gap: 5rem;
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    background-color: ${({ theme }) => theme.color.white};
+    background-color: ${({ theme }) => theme.color.themeColorE};
     box-shadow: 0 0 3px ${({ theme }) => theme.color.grayishBlue};
     border-radius: 0.4rem;
   }
   & article p {
-    color: ${({ theme }) => theme.color.grayishBlue};
+    color: ${({ theme }) => theme.color.readerText};
     padding-bottom: 20px;
     padding-left: 5%;
     font-size: clamp(0.75rem 30vw 1.2rem);

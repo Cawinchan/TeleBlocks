@@ -1,13 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { StyledArticleSection } from "./Article.styled";
-import ConfidentialSVG from "../../../assets/svgs/ConfidentialSVG";
-import IllustrationGrowTogether from "../../../assets/svgs/IllustrationGrowTogether";
-import IllustrationFlowingConversations from "../../../assets/svgs/IllustrationFlowingConversations";
-import IllustrationsYourUsers from "../../../assets/svgs/IllustrationsYourUsers";
-import { StyledButton } from "../Button/Button.styled";
-import { AwesomeButton } from "react-awesome-button";
+import theme from "../../../theme";
+import ShareLinkSvg from "../../../assets/svgs/ShareLinkSvg";
+import SocialGirlSvg from "../../../assets/svgs/SocialGirlSvg";
+import PhoneCallSvg from "../../../assets/svgs/PhoneCallSvg";
+import EtherSvg from "../../../assets/svgs/EtherSvg";
+
 import "react-awesome-button/dist/styles.css";
+import { AwesomeButton } from "react-awesome-button";
+import { StyledButton } from "../Button/Button.styled";
+import { StyledArticleSection } from "./Article.styled";
+
 function Article() {
   let navigate = useNavigate();
 
@@ -19,12 +22,14 @@ function Article() {
     navigate("/explore");
   };
 
+  const svgColor = theme.color.themeColorB;
+
   return (
     <>
       <StyledArticleSection>
         <h1>Imagine - WHAT IF ...</h1>
         <article>
-          <ConfidentialSVG />
+          <SocialGirlSvg themeColor={svgColor} />
           <div>
             <h2>
               <b>WHAT IF</b> you can control who gets access to your information
@@ -48,7 +53,7 @@ function Article() {
           </div>
         </article>
         <article>
-          <IllustrationFlowingConversations />
+          <ShareLinkSvg height={250} themeColor={svgColor} />
           <div>
             <h2>
               <b>WHAT IF</b> you can control who has your mobile number?
@@ -73,7 +78,7 @@ function Article() {
           </div>
         </article>
         <article>
-          <IllustrationsYourUsers />
+          <PhoneCallSvg themeColor={svgColor} />
           <div>
             <h2>
               <b>WHAT IF</b> you can switch Telecom service provider anytime you
@@ -99,10 +104,11 @@ function Article() {
           </div>
         </article>
         <article>
-          <IllustrationsYourUsers />
+          <EtherSvg height={350} themeColor={svgColor} />
           <div>
             <h2>
-              <b>WHAT IF</b> you can create your own number and keep it forever?
+              <b>WHAT IF</b> you can create your own number on the chain and
+              take full control?
             </h2>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -117,17 +123,17 @@ function Article() {
               action={goExplore}
               ripple
             >
-              Read More
+              Try Now
             </AwesomeButton>
           </div>
         </article>
 
-        <div className="cta">
+        {/* <div className="cta">
           <h2>Ready To Mint Your TeleBlock Identity as an NFT?</h2>
           <StyledButton color={`#fff`} bg={"#0B0033"} onClick={goHome}>
             Get Started
           </StyledButton>
-        </div>
+        </div> */}
       </StyledArticleSection>
     </>
   );
