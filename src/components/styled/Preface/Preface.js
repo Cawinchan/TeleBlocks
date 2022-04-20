@@ -1,6 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StyledPreface } from "./Preface.styled";
+import tpg from '../../../assets/tpg.png'
+import telecomms from '../../../assets/telecomms.png'    
+
 
 const Preface = (props) => {
   return (
@@ -17,6 +20,9 @@ const Preface = (props) => {
               oversimplifying it, identity is who we are and how people connect
               to us.
             </p>
+            {/* <img id='telecoms' src={telecomms} alt="Telecoms"></img> */}
+            {/* <img id='tpg' src={tpg} alt="tpg"></img> */}
+
           </div>
         </article>
 
