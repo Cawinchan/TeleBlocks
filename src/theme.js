@@ -21,6 +21,7 @@ let theme = {
     themeColorB: "#4a4e69",
     themeColorC: "#9a8c98",
     themeColorD: "#c9ada7",
+    themeColorD2: "#63585E",
     themeColorE: "#f2e9e4",
     readerText: "#dda15e",
   },
