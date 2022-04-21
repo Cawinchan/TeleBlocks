@@ -31,8 +31,20 @@ function NFTMinter() {
     return (
       <div>
           <h5 id="header-text-head">Your Teleblocks Number: {NFT} </h5>
-          <button id='button_mint' onClick={() => getNFT()}>Mint NFT for Free</button>
-          <input id ='name' name="" maxlength="8"  type='Type your name'></input>
+          <div id ='form' >
+          <label id='label_name' for="fname">Mobile Name</label>
+          <input type="text" id="Mobile Name" name="firstname" placeholder="E.g Bready_Chan98🍞"></input>
+
+          <label id='label_bio' for="bio">Bio</label>
+          <input type="text" id="bio" name="biography" placeholder="Tell us about yourself!"></input>
+
+          <label id='label_country' for="country">Country</label>
+          <input type="text" id="country" name="country" placeholder="Where are you from!"></input>
+        
+          <button id='button_submit' type="submit"  value="Submit" onClick={() => getNFT()}>Mint A Number for Free</button>
+        </div>
+
+
       </div>
       
     );
