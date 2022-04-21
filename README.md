@@ -15,7 +15,7 @@ Oligopolistic telecommunication companies hold significant power on your mobile 
 
 As such, our group's mission is to drive the separation of power of the mobile identity to the masses. This is done through the use of a free, open, personalizable TeleBlock Number NFT that belongs to each user. Everything is customizable extending past the number rhetoric, it allows for letters, symbols, and even emojis. There is also another texture element to the TeleBlock number NFT where the NFT can include a pictorial and even 3d graphical renders that allow for the user to escape the dimensions that restrict their idea of how they want their identity to be seen.
 
-## 🖥️ Screenshoots 
+## 🖥️ Screenshots 
 
 ### Home
 
