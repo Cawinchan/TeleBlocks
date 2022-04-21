@@ -30,7 +30,16 @@
 #label_country{
     color: #fff;
     font-size: large;
+}
 
+#label_file{
+    color: #fff;
+    font-size: large;
+}
+
+#file-upload{
+    color: #fff;
+    font-size: large;
 }
 
 #form{
