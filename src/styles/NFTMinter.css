@@ -12,9 +12,53 @@
     font-size: large;
 }
 
-#name {
-    display: flex;
-    margin: 0 auto;
-    font-size: large;
-    color:#000000;
+
+#header-text-head{
+    padding-bottom: 30  px;
 }
+
+#label_name{
+    color: #fff;
+    font-size: large;
+}
+#label_bio{
+    color: #fff;
+    font-size: large;
+
+    
+}
+#label_country{
+    color: #fff;
+    font-size: large;
+
+}
+
+#form{
+    justify-content: center;
+    margin: 0 auto; 
+    width:250px;
+
+}
+
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+#button_submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+
+  }
+  
