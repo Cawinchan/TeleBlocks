@@ -41,7 +41,7 @@ const Article3 = (props) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                DNS
+                Domain Name System (DNS)
               </a>{" "}
               or{" "}
               <a
@@ -49,7 +49,7 @@ const Article3 = (props) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ENS
+                Ethereum Name Service (ENS)
               </a>{" "}
               works today. You can have your own TeleBlocks number as NFT, as a
               mobile identity. However, whenever you want to call a friend, you
@@ -59,6 +59,12 @@ const Article3 = (props) => {
               resolve the destination you want to reach, make sure the
               connection is possible, and take the profit directly from your
               blockchain wallet upon a successful call.
+            </p>
+            <p>
+              In this way, the big telecom companies would no longer be a
+              special entity in society, with enormous power over everyone's
+              personal information and mobile identity, while still providing
+              more equitable telecom services.
             </p>
             <div>
               <AwesomeButton

@@ -56,7 +56,7 @@ const Article1 = (props) => {
               What you can do now: Search up yourself on any of the people
               look-up websites, then request for the sites to remove your
               information! You can follow Norton's guide on how to send a
-              removal request for different look-up sites
+              removal request for different look-up sites{" "}
               <a
                 href="https://us.norton.com/internetsecurity-how-to-how-to-remove-info-from-people-search-sites.html"
                 target="_blank"

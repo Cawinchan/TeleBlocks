@@ -37,6 +37,19 @@ const Article4 = (props) => {
               allow for the user to escape the dimensions that restrict their
               idea of how they want their identity to be seen.
             </p>
+            <p>
+              With TeleBlocks, you can have a private mobile identity that only
+              you know, as well as many different public identities that you can
+              create to serve different purposes. People can contact you through
+              these public identities, but they cannot find your private
+              identity. You also have the power to turn off the connection of a
+              public identity to your private identity at any time. In this way,
+              you have complete control over your mobile identity, your privacy,
+              your accessibility. All of this is technically possible with
+              blockchain, and today, we're just giving you a first glimpse of
+              the possibilities. Click "Explore" to mint your own mobile
+              identity with personality.
+            </p>
             <div>
               <AwesomeButton
                 id="AwesomeButton"
@@ -55,7 +68,7 @@ const Article4 = (props) => {
                 action={readNext}
                 ripple
               >
-                Explore TeleBlocks
+                Explore
               </AwesomeButton>
             </div>
           </StyledWhatIfSection>
