@@ -14,6 +14,14 @@ export const StyledPreface = styled.section`
     font-weight: bold;
     color: ${({ theme }) => theme.color.white};
   }
+  a {
+    margin: 0;
+    padding: 0.5rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+  }
 
   & article {
     padding: 0em 10%;
@@ -35,6 +43,8 @@ export const StyledPreface = styled.section`
     text-justify: inter-word;
     font-size: clamp(0.75rem 30vw 1.2rem);
   }
+
+  
   & article h2 {
     color: ${({ theme }) => theme.color.themeColorE};
     font-size: 1.6rem;
