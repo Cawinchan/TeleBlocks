@@ -19,7 +19,7 @@ import { DAppProvider } from "@usedapp/core";
 import NFTDetail from "./pages/NFTDetail";
 
 ReactDOM.render(
-  <BrowserRouter basename="https://cawinchan.github.io/TeleBlocks">
+  <BrowserRouter>
     <ScrollToTop />
     <Routes>
       <Route
@@ -98,8 +98,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
