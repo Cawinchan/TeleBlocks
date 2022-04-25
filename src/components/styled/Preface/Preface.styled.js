@@ -18,7 +18,7 @@ export const StyledPreface = styled.section`
   a {
     padding: 0;
     margin: 0;
-    color: #c41c7c;
+    color: #b41c7c;
     font-weight: 500;
     -webkit-transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
@@ -38,7 +38,7 @@ export const StyledPreface = styled.section`
     padding: 0 5px;
     width: 100%;
     height: 100%;
-    border: 2px solid #c41c7c;
+    border: 2px solid #b41c7c;
     content: "";
     opacity: 0;
     -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
