@@ -19,7 +19,7 @@ import { DAppProvider } from "@usedapp/core";
 import NFTDetail from "./pages/NFTDetail";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ScrollToTop />
     <Routes>
       <Route
