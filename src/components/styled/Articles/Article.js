@@ -45,7 +45,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goExplore}
+              action={goHome}
               ripple
             >
               Read More
@@ -70,7 +70,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goExplore}
+              action={goHome}
               ripple
             >
               Read More
@@ -96,7 +96,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goExplore}
+              action={goHome}
               ripple
             >
               Read More
@@ -120,7 +120,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goExplore}
+              action={goHome}
               ripple
             >
               Try Now

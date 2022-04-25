@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import MainStory from "./pages/MainStory";
 import Create from "./pages/Create";
 import Explore from "./pages/Explore";
+import ScrollToTop from "./components/ScrollToTop";
 
 //dapp
 import { DAppProvider } from "@usedapp/core";
@@ -15,6 +16,7 @@ import NFTDetail from "./pages/NFTDetail";
 
 ReactDOM.render(
   <BrowserRouter>
+    <ScrollToTop />
     <Routes>
       <Route
         path="/"

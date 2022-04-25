@@ -5,7 +5,6 @@ import CardList from "../components/CardList";
 import { hotDropsData } from "../constants/MockupData";
 import Header from "../components/Header";
 
-
 const Home = () => {
   return (
     <div id="home">
