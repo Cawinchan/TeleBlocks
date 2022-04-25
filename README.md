@@ -1,8 +1,8 @@
 # Open Place TeleBlocks
 
-## Website 
+## Our Website 
 
-[Start your journey](https://cawinchan.github.io/TeleBlocks/)
+[Start your journey here!](https://cawinchan.github.io/TeleBlocks/)
 
 ## 🎯 Goal
 
@@ -26,8 +26,9 @@ In the project directory, you can run:
 ## 🖥️ Screenshots 
  
 ## Web 2
-Web 2.0 refers to a paradigm shift in the utilization of the internet. Web 2.0 allows user-generated material to be viewed by millions of people all over the world in an instant; this unprecedented reach has resulted in an explosion of this form of content in recent years.
- 
+Our website (Web 2.0) that gives rise to the conversation of mobile companies who own our mobile identities and a blockchain-based telecommunication platform 
+
+Web 2.0 refers to a paradigm shift in the utilization of the internet. Web 2.0 allows user-generated material to be viewed by millions of people all over the world in an instant; this unprecedented reach has resulted in an explosion of this form of content in recent years. 
 ### Home
 
 ![homepage](docs/images/homepage.png)
@@ -42,6 +43,8 @@ Web 2.0 refers to a paradigm shift in the utilization of the internet. Web 2.0
 
 
 ## Web 3
+Our blockchain-based telecommunication platform (Web 3.0) forces the readers to grapple with an alternative where they can own their own mobile identity that they can use to communicate openly and freely instead of subscribing to consumerist mobile identities created by large telecommunication companies.
+  
 Web 3.0 is the next iteration or phase in the evolution of the web/internet, and it has the potential to be as disruptive.  Web 3.0 is based on the fundamental ideals of decentralization, openness, and increased consumer usefulness.
  
 ### Home
