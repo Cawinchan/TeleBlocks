@@ -18,9 +18,6 @@ const MainStory = (props) => {
     navigate("/home");
   };
 
-  const goExplore = () => {
-    navigate("/explore");
-  };
   const goCreate = () => {
     navigate("/create");
   };

@@ -9,6 +9,10 @@ import MainStory from "./pages/MainStory";
 import Create from "./pages/Create";
 import Explore from "./pages/Explore";
 import ScrollToTop from "./components/ScrollToTop";
+import Article1 from "./components/styled/WhatIf/Article1";
+import Article2 from "./components/styled/WhatIf/Article2";
+import Article3 from "./components/styled/WhatIf/Article3";
+import Article4 from "./components/styled/WhatIf/Article4";
 
 //dapp
 import { DAppProvider } from "@usedapp/core";
@@ -23,6 +27,38 @@ ReactDOM.render(
         element={
           <DAppProvider config={{}}>
             <MainStory />
+          </DAppProvider>
+        }
+      />
+      <Route
+        path="/Article1"
+        element={
+          <DAppProvider config={{}}>
+            <Article1 />
+          </DAppProvider>
+        }
+      />
+      <Route
+        path="/Article2"
+        element={
+          <DAppProvider config={{}}>
+            <Article2 />
+          </DAppProvider>
+        }
+      />
+      <Route
+        path="/Article3"
+        element={
+          <DAppProvider config={{}}>
+            <Article3 />
+          </DAppProvider>
+        }
+      />
+      <Route
+        path="/Article4"
+        element={
+          <DAppProvider config={{}}>
+            <Article4 />
           </DAppProvider>
         }
       />

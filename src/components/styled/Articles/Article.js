@@ -18,6 +18,19 @@ function Article() {
     navigate("/home");
   };
 
+  const goArticle1 = () => {
+    navigate("/Article1");
+  };
+  const goArticle2 = () => {
+    navigate("/Article2");
+  };
+  const goArticle3 = () => {
+    navigate("/Article3");
+  };
+  const goArticle4 = () => {
+    navigate("/Article4");
+  };
+
   const goExplore = () => {
     navigate("/explore");
   };
@@ -45,7 +58,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goHome}
+              action={goArticle1}
               ripple
             >
               Read More
@@ -70,7 +83,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goHome}
+              action={goArticle2}
               ripple
             >
               Read More
@@ -96,7 +109,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goHome}
+              action={goArticle3}
               ripple
             >
               Read More
@@ -120,7 +133,7 @@ function Article() {
               id="AwesomeButton"
               type="secondary"
               size="large"
-              action={goHome}
+              action={goArticle4}
               ripple
             >
               Try Now
