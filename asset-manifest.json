@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TeleBlocks/static/css/main.3b9c90e4.css",
+    "main.js": "/TeleBlocks/static/js/main.8cc3e607.js",
+    "static/media/AntiqueCamera.glb": "/TeleBlocks/static/media/AntiqueCamera.b6982ec7c34c448a74c7.glb",
+    "static/media/BarramundiFish.glb": "/TeleBlocks/static/media/BarramundiFish.cfc464a969cdd8a29f61.glb",
+    "static/media/Avocado.glb": "/TeleBlocks/static/media/Avocado.219d1b0f1f2f448d0f1c.glb",
+    "static/media/coin_payphone.png": "/TeleBlocks/static/media/coin_payphone.bddd6a7899631584c8f0.png",
+    "static/media/splash.png": "/TeleBlocks/static/media/splash.bf9b49e5da6a5c8cc4f1.png",
+    "static/media/telecomms.png": "/TeleBlocks/static/media/telecomms.6f5ff3446ecba2be25f2.png",
+    "static/media/tpg.png": "/TeleBlocks/static/media/tpg.e51901d7a94c6ddf6749.png",
+    "static/media/MetaMask_Fox.png": "/TeleBlocks/static/media/MetaMask_Fox.71e143d7ebf0e9e16f71.png",
+    "index.html": "/TeleBlocks/index.html",
+    "main.3b9c90e4.css.map": "/TeleBlocks/static/css/main.3b9c90e4.css.map",
+    "main.8cc3e607.js.map": "/TeleBlocks/static/js/main.8cc3e607.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b9c90e4.css",
+    "static/js/main.8cc3e607.js"
+  ]
+}
