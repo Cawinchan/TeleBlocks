@@ -1,5 +1,6 @@
 {
   "name": "nft-marketplace",
+  "homepage": "https://cawinchan.github.io/TeleBlocks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
