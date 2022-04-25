@@ -12,7 +12,9 @@ const Article4 = (props) => {
   const goBack = () => {
     navigate(-1);
   };
-  const readNext = () => {};
+  const readNext = () => {
+    navigate("/home");
+  };
 
   return (
     <>
@@ -49,7 +51,7 @@ const Article4 = (props) => {
                 action={readNext}
                 ripple
               >
-                Read Next
+                Explore TeleBlocks
               </AwesomeButton>
             </div>
           </StyledWhatIfSection>

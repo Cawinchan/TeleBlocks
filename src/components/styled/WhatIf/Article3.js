@@ -12,7 +12,9 @@ const Article3 = (props) => {
   const goBack = () => {
     navigate(-1);
   };
-  const readNext = () => {};
+  const readNext = () => {
+    navigate("/Article4");
+  };
 
   return (
     <>

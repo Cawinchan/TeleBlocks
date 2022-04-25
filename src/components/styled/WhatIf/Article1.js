@@ -12,7 +12,9 @@ const Article1 = (props) => {
   const goBack = () => {
     navigate(-1);
   };
-  const readNext = () => {};
+  const readNext = () => {
+    navigate("/Article2");
+  };
 
   return (
     <>
@@ -20,16 +22,49 @@ const Article1 = (props) => {
         <GlobalStyle />
         <div className="appContainer">
           <StyledWhatIfSection>
-            <h1> What If 1 </h1>
+            <h1>
+              WHAT IF you can control who gets access to your information
+              through your mobile number?
+            </h1>
             <p>
-              « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
-              eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrum exercitationem ullam corporis
-              suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-              Quis aute iure reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum. »
+              Your mobile number can be used to get personal information about
+              you easily through the use of people look-up sites. This
+              information can then allow anyone to attack you with targeted ads
+              or even hack into your online accounts!
+            </p>
+            <p>
+              Everyone (hopefully) already knows that all your online activity
+              is easily tracked through the use of trackers on all kinds of
+              websites. However, did you know that your mobile number can be
+              also used to find out about all kinds of personal information?
+              According to mobile security firm Fyde, our mobile number might be
+              a stronger identifier than our full name. For the low barrier of
+              $5 and 1 hour, malicious hackers can easily find your current home
+              addresses, all your past addresses, full names of your family,
+              past phone numbers and even your criminal record through the use
+              of people look-up applications. This information can be easily
+              used to reset your passwords and target your number with phishing
+              texts and robocalls. Even more legitimate companies like marketers
+              can use your mobile number to send you targeted ads! Additionally,
+              hackers can use the personal information to trick your telco to
+              port your number onto a new number, giving the hacker access to
+              your whole life, allowing them to log into your private accounts
+              and to impersonate you for the purpose of scamming your friends
+              and family!
+            </p>
+            <p>
+              What you can do now: Search up yourself on any of the people
+              look-up websites, then request for the sites to remove your
+              information! You can follow Norton's guide on how to send a
+              removal request for different look-up sites
+              <a
+                href="https://us.norton.com/internetsecurity-how-to-how-to-remove-info-from-people-search-sites.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
             </p>
             <div>
               <AwesomeButton
