@@ -124,10 +124,15 @@ function Article() {
               take full control?
             </h2>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Our mission is to drive the separation of power of the mobile
+              identity to the masses. This is done through the use of a free,
+              open, personalizable TeleBlock Number NFT that belongs to each
+              user. Everything is customizable extending past the number
+              rhetoric, it allows for letters, symbols, and even emojis. There
+              is also another texture element to the TeleBlock number NFT where
+              the NFT can include a pictorial and even 3d graphical renders that
+              allow for the user to escape the dimensions that restrict their
+              idea of how they want their identity to be seen.
             </p>
             <AwesomeButton
               id="AwesomeButton"
@@ -136,7 +141,7 @@ function Article() {
               action={goArticle4}
               ripple
             >
-              Try Now
+              Read More
             </AwesomeButton>
           </div>
         </article>

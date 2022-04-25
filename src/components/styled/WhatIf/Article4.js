@@ -22,16 +22,20 @@ const Article4 = (props) => {
         <GlobalStyle />
         <div className="appContainer">
           <StyledWhatIfSection>
-            <h1> What If 4 </h1>
+            <h1>
+              WHAT IF you can create your own number on the chain and take full
+              control?
+            </h1>
             <p>
-              « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
-              eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrum exercitationem ullam corporis
-              suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-              Quis aute iure reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum. »
+              Our mission is to drive the separation of power of the mobile
+              identity to the masses. This is done through the use of a free,
+              open, personalizable TeleBlock Number NFT that belongs to each
+              user. Everything is customizable extending past the number
+              rhetoric, it allows for letters, symbols, and even emojis. There
+              is also another texture element to the TeleBlock number NFT where
+              the NFT can include a pictorial and even 3d graphical renders that
+              allow for the user to escape the dimensions that restrict their
+              idea of how they want their identity to be seen.
             </p>
             <div>
               <AwesomeButton

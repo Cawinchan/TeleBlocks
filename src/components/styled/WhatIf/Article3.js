@@ -22,16 +22,16 @@ const Article3 = (props) => {
         <GlobalStyle />
         <div className="appContainer">
           <StyledWhatIfSection>
-            <h1> What If 3 </h1>
+            <h1>
+              WHAT IF you can switch Telecom service provider anytime you like?
+            </h1>
             <p>
-              « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
-              eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrum exercitationem ullam corporis
-              suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-              Quis aute iure reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum. »
+              There are times when other telcos offer attractive promotions that
+              you are tempted to try, but you are locked into a single telco
+              because you have a long-term contract with them or are not
+              comfortable porting your number to a new telco. What if you could
+              switch your telecom service provider at any time and there was no
+              friction, no downtime and your mobile identity was preserved?
             </p>
             <div>
               <AwesomeButton

@@ -22,7 +22,7 @@ const Article2 = (props) => {
         <GlobalStyle />
         <div className="appContainer">
           <StyledWhatIfSection>
-            <h1> What if you can control who has your mobile number? </h1>
+            <h1> WHAT IF you can control who has your mobile number? </h1>
             <p>
               The phone numbers we use for quick logins to accounts and 2FA
               verification can be easily used for purposes other than what was
