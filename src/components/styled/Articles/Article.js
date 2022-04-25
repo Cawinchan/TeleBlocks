@@ -145,13 +145,6 @@ function Article() {
             </AwesomeButton>
           </div>
         </article>
-
-        {/* <div className="cta">
-          <h2>Ready To Mint Your TeleBlock Identity as an NFT?</h2>
-          <StyledButton color={`#fff`} bg={"#0B0033"} onClick={goHome}>
-            Get Started
-          </StyledButton>
-        </div> */}
       </StyledArticleSection>
     </>
   );

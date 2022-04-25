@@ -14,13 +14,42 @@ export const StyledPreface = styled.section`
     font-weight: bold;
     color: ${({ theme }) => theme.color.white};
   }
-  a {
-    margin: 0;
-    padding: 0.5rem;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-    font-size: 1.3rem;
 
+  a {
+    padding: 0;
+    margin: 0;
+    color: #741c7c;
+    font-weight: 500;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+  }
+  a:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  a::before {
+    position: absolute;
+    top: -2px;
+    left: -7px;
+    box-sizing: content-box;
+    padding: 0 5px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #741c7c;
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: opacity 0.2s, transform 0.2s;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  a:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
 
   & article {
@@ -44,7 +73,6 @@ export const StyledPreface = styled.section`
     font-size: clamp(0.75rem 30vw 1.2rem);
   }
 
-  
   & article h2 {
     color: ${({ theme }) => theme.color.themeColorE};
     font-size: 1.6rem;

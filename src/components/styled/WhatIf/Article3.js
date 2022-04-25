@@ -33,6 +33,33 @@ const Article3 = (props) => {
               switch your telecom service provider at any time and there was no
               friction, no downtime and your mobile identity was preserved?
             </p>
+            <p>
+              In the future, with TeleBlocks, we can develop a telecommunication
+              translation layer on the chain, just like the{" "}
+              <a
+                href="https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DNS
+              </a>{" "}
+              or{" "}
+              <a
+                href="https://docs.ens.domains/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ENS
+              </a>{" "}
+              works today. You can have your own TeleBlocks number as NFT, as a
+              mobile identity. However, whenever you want to call a friend, you
+              can initiate a connection request on the chain to the designated
+              telco you want to use, instead of initiating a phone call to your
+              fixed telco. Your designated telco will process your request,
+              resolve the destination you want to reach, make sure the
+              connection is possible, and take the profit directly from your
+              blockchain wallet upon a successful call.
+            </p>
             <div>
               <AwesomeButton
                 id="AwesomeButton"
